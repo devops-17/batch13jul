@@ -35,7 +35,7 @@ pipeline
 			}
 		}
 		
-		stage('Deployment')
+		stage('Deployment
 		{
 			steps
 			{
@@ -46,6 +46,4 @@ pipeline
 				sh 'sudo systemctl start tomcat'
 			}
 		}
-	}
-		
 }
