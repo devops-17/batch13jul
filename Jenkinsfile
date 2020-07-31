@@ -35,11 +35,11 @@ pipeline
 			}
 		}
 		
-		stage('Deployment
+		stage('Deployment')
 		{
 			steps
 			{
-				echo "Deployment")
+				echo "Deployment"
 				sh 'sudo cp /var/lib/jenkins/workspace/AddressBookPipeline/target/addressbook.war /usr/share/tomcat/webapps/'
 				sh 'sudo systemctl stop tomcat'
 				sh 'sudo rm -rf /usr/share/tomcat/webapps/addressbook'
