@@ -46,4 +46,5 @@ pipeline
 				sh 'sudo systemctl start tomcat'
 			}
 		}
+     }
 }
